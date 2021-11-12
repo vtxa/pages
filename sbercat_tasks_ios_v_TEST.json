@@ -148,7 +148,7 @@
           "subtitle": "Оплати жкх и останься без одежды",
           "imageName": "ds_ic_36_moneybag_fill",
           "imageBackground": "taskViolet",
-          "deeplink": "onboarding/jkh/bottomsheet"
+          "deeplink": "onboarding/credits/aa"
         }
       ]
     },
