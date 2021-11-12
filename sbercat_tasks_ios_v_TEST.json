@@ -152,6 +152,67 @@
         }
       ]
     },
+     {
+      "id": "musia",
+      "enabled": true,
+      "name": "Муся",
+      "talkbackName": "Муся",
+      "headerImages": [
+        {
+          "name": "sberCatTask0",
+          "imageUrl2x": "https://cms-res.online.sberbank.ru/ONBOARDING/SBERCAT2/sbercat_kusya_state_0_2x.png",
+          "imageUrl3x": "https://cms-res.online.sberbank.ru/ONBOARDING/SBERCAT2/sbercat_kusya_state_0_3x.png",
+          "imageUrl4x": "https://cms-res.online.sberbank.ru/ONBOARDING/SBERCAT2/sbercat_kusya_state_0_4x.png"
+        },
+        {
+          "name": "sberCatTask1",
+          "imageUrl2x": "https://cms-res.online.sberbank.ru/ONBOARDING/SBERCAT2/sbercat_kusya_state_1_2x.png",
+          "imageUrl3x": "https://cms-res.online.sberbank.ru/ONBOARDING/SBERCAT2/sbercat_kusya_state_1_3x.png",
+          "imageUrl4x": "https://cms-res.online.sberbank.ru/ONBOARDING/SBERCAT2/sbercat_kusya_state_1_4x.png"
+        },
+        {
+          "name": "sberCatTask2",
+          "imageUrl2x": "https://cms-res.online.sberbank.ru/ONBOARDING/SBERCAT2/sbercat_kusya_state_2_2x.png",
+          "imageUrl3x": "https://cms-res.online.sberbank.ru/ONBOARDING/SBERCAT2/sbercat_kusya_state_2_3x.png",
+          "imageUrl4x": "https://cms-res.online.sberbank.ru/ONBOARDING/SBERCAT2/sbercat_kusya_state_2_4x.png"
+        },
+        {
+          "name": "sberCatTask3",
+          "imageUrl2x": "https://cms-res.online.sberbank.ru/ONBOARDING/SBERCAT2/sbercat_kusya_state_3_2x.png",
+          "imageUrl3x": "https://cms-res.online.sberbank.ru/ONBOARDING/SBERCAT2/sbercat_kusya_state_3_3x.png",
+          "imageUrl4x": "https://cms-res.online.sberbank.ru/ONBOARDING/SBERCAT2/sbercat_kusya_state_3_4x.png"
+        }
+      ],
+      "tasks": [
+        {
+          "id": "MusiaTest1",
+          "enabled": true,
+          "title": "Подпишись на СберКота",
+          "subtitle": "Сам СберКот стесняется попросить, а Куся в его фан-клубе",
+          "imageName": "ds_ic_36_speech_bubble_heart_fill",
+          "imageBackground": "taskPink",
+          "deeplink": "messenger/profile-by-link-name?name=sberkot&returnOnDialogs=false"
+        },
+        {
+          "id": "MusiaTest2",
+          "enabled": true,
+          "title": "Загляни в Салют",
+          "subtitle": "Пройди финтест, чтобы проверить свой уровень financial IQ",
+          "imageName": "ds_ic_36_star_light_fill",
+          "imageBackground": "taskAqua5",
+          "deeplink": "voiceassistant/?data=%7B%22text%22%3A%22%D0%97%D0%B0%D0%BF%D1%83%D1%81%D1%82%D0%B8%20%D1%84%D0%B8%D0%BD%D1%82%D0%B5%D1%81%D1%82%22%7D"
+        },
+        {
+          "id": "MusiaTest3",
+          "enabled": true,
+          "title": "Узнай про СберСпасибо",
+          "subtitle": "Посмотри, сколько всего можно получить со СберСпасибо",
+          "imageName": "ds_ic_36_spasibo_fill",
+          "imageBackground": "taskOrange",
+          "deeplink": "loyalty/main"
+        }
+      ]
+    },
     {
       "id": "secret",
       "enabled": true,
